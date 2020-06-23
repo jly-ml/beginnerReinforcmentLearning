@@ -160,14 +160,3 @@ final_path = sp(source,dest)
 print('From', source , 'to', dest, 'takes', len(final_path) - 1  , 'hops!')
 print('Final path: ', final_path)
 
-confirmation = 'Y'
-while(confirmation == 'Y'):
-
-    source = int(input("Enter the source ID: "))
-    dest = int(input("Enter the destination ID: "))
-    final_path = sp(source, dest)
-    print('From', source, 'to', dest, 'takes', len(final_path) - 1, 'hops!')
-    print('Final path: ', final_path)
-    c = ((input("Continue? Y/N   " )))
-    confirmation = c.upper()
-    print('*******************************************************')
