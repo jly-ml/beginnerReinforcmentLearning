@@ -1,9 +1,10 @@
 # beginnerReinforcmentLearning
 Simple projects to help me understand Reinforcement Learning
 
-
-NAME: RL_fattree_pathfinder.py
-PURPOSE: Followed tutorial from https://towardsdatascience.com/finding-shortest-path-using-q-learning-algorithm-1c1f39e89505
+          
+          NAME: RL_fattree_pathfinder.py
+          PURPOSE: Followed tutorial from https://towardsdatascience.com/finding-shortest-path-using-q-learning-algorithm-1c1f39e89505
+          
           I chose a well written tutorial so I could easily implement the code and then try to:
             1. See what tuning the parameters will do for its behavior
             2. Modify it for a slightly different purpose
