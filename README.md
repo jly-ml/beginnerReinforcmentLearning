@@ -4,8 +4,13 @@ Simple projects to help me understand Reinforcement Learning
           
           NAME: RL_fattree_pathfinder.py
           PURPOSE: Followed tutorial from https://towardsdatascience.com/finding-shortest-path-using-q-learning-algorithm-1c1f39e89505
-          
-          I chose a well written tutorial so I could easily implement the code and then try to:
+          ** EDIT 6-30-2020 Code changes **
+          *[Fixed incorrect ID assignments for Fattree ]
+          *[ Code formatting, and comments for further code breakdown]
+          *[made walk dynamically calculated based on 'k', helped proportionately increase walks needed for larger and larger graphs ]
+          *[ inserted duration timers for benchmarks and comparisons ]           
+      
+      I chose a well written tutorial so I could easily implement the code and then try to:
             1. See what tuning the parameters will do for its behavior
             2. Modify it for a slightly different purpose
             
