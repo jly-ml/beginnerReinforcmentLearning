@@ -140,7 +140,7 @@ def updateQ(n1, n2, lr, discount):
     max_value = Q[n2, max_index]
     Q[n1, n2] = int((1 - lr) * Q[n1, n2] + lr * (R[n1, n2] + discount * max_value))
 
-walk = 100 * (pow(5,int(math.log(k))*2) )  # as k increases, the walks needs to increase as well
+walk = 100 * (pow(6,int(math.log(k))*2) )  # as k increases, the walks needs to increase as well
 print(walk)
 def learn(er, lr, discount):
     for i in range(int(walk)):
