@@ -19,7 +19,7 @@ NAME: RL_fattree_pathfinder.py
             2. Use reinforcement learning to find the simplest path between two ID numbers
  ***************************************************************************************************************************************************           
           NAME: RL_fattree_graph_path_commcost
-          PURPOSE: further edititing of RL_fattree_pathfinder, but with separation in mind
+          PURPOSE: further edititing of RL_fattree_pathfinder, but with helper functions separated for easier reading
           DATE OF LAST EDIT: 07/15/2020
           
           1. input.py  (NO input variables needed)
